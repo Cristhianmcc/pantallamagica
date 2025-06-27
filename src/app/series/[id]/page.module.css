@@ -1,0 +1,28 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #181818 0%, #232526 100%);
+  color: #fff;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.loading, .notFound {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
